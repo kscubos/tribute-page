@@ -1,0 +1,77 @@
+html, body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+#bg-image{
+    background-image: url("car-background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: static;
+    background-attachment: fixed;
+}
+#main{
+    height: auto;
+    width: 100%;
+    margin-left: 70px;
+    padding: 50px;  
+}
+hr{
+    width: 50%;
+    text-align: center;
+}
+#name-title{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 5px aqua;
+    -webkit-text-size-adjust: auto;
+    letter-spacing: 5px;
+}
+#desc{
+    margin-top: -5px;
+    text-align: center;
+    color: whitesmoke;
+}
+#about{
+    max-width: 40%;
+    text-align: justify;
+    font-family: Arial;
+    padding: 10px 30px 30px 30px;
+    margin: auto;
+    background-image: linear-gradient(gray, aquamarine);
+}
+#achievements{
+    max-width: 40%;
+    font-family: Arial;
+    padding: 10px 40px 15px 20px;
+    margin: auto;
+    background-color: aquamarine;
+}
+#video{
+    max-width: 40%;
+    font-family: Arial;
+    text-align: center;
+    padding: 10px 30px 30px 30px;
+    margin: auto;
+    background-color: aquamarine;
+}
+#gallery{
+    max-width: 40%;
+    font-family: Arial;
+    text-align: center;
+    padding: 10px 30px 30px 30px;
+    margin: auto;
+    background-image: linear-gradient(aquamarine, gray);
+}
+#socialmedia{
+    max-width: 40%;
+    font-family: Arial;
+    text-align: center;
+    padding: 10px 30px 30px 30px;
+    margin: auto;
+    background-color: gray;
+}
